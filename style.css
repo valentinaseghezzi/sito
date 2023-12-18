@@ -1,0 +1,55 @@
+
+/* OGNI RIGA DI PROPRIETA' VA SEMPRE CHIUSA CON IL ; */
+
+/* questo è un commento css, il body è un SELECTOR / SELETTORE, dove spariamo le info che diamo, ciòc he è interessato al cambaimento di stile. body si intende tutto il file. background color è la proprieta' E TURCHESE è IL VALORE 
+- modo 1 per il colore: nome*/ 
+body {
+    background-color: pink;
+    color: fuchsia;
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+}
+
+/* metodo 2 colore, rgb*/
+h1{
+    background-color: brown;
+    color: rgb(44,231,67);
+}
+
+/* metodo 2.a colore con trasparenza, dove a va da 0 (trasparente) a 1 (opaco), rgba*/
+h3{
+    color: rgba(44, 27, 100, 0.5);
+}
+
+/* metodo 3 colore, esadecimali*/
+h4{
+    background-color: white;
+    color: #ff0000;
+    font-style: italic;
+}
+
+/*colore link*/
+
+a{
+    color: rgb(69, 9, 545, 0, 191);
+    /*decorazione linea sopra, con none tolgo tutto*/
+    text-decoration: overline;
+    
+}
+
+/* alcuni elelemtni di html come link ha diversi stati, può essere a riposo, sopra con il mouse, cliccato e quando è già stato visitato */
+/* :hover è una PSEUDO CLASSE e inetnde quando ci siamo sopra con il mouse*/
+
+a:hover{
+color: black;
+text-decoration: underline;
+}
+
+a:visited{
+    color: dodgerblue;
+    text-decoration: line-through;
+}
+
+
+
+
