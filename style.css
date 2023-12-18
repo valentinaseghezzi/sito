@@ -4,14 +4,13 @@
 /* questo è un commento css, il body è un SELECTOR / SELETTORE, dove spariamo le info che diamo, ciòc he è interessato al cambaimento di stile. body si intende tutto il file. background color è la proprieta' E TURCHESE è IL VALORE 
 - modo 1 per il colore: nome*/ 
 body {
-    font-family: 'HalyardDis_ISIAU Bk';
+    font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif; 
     font-size: 28px;
 }
 
 /* metodo 2 colore, rgb*/
 h1{
-    background-color: brown;
-    color: rgb(44,231,67);
+    color: black
 }
 
 /* metodo 2.a colore con trasparenza, dove a va da 0 (trasparente) a 1 (opaco), rgba*/
@@ -29,6 +28,8 @@ h4{
 
 a{
     border-bottom: 1px solid black; /* shorthand, ovvero una contrazione di quelle che sarebbero diverse linee di codice */
+    color: black;
+    text-decoration: none;
 }
 
 /* alcuni elelemtni di html come link ha diversi stati, può essere a riposo, sopra con il mouse, cliccato e quando è già stato visitato */
