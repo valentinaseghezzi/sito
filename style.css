@@ -4,8 +4,6 @@
 /* questo è un commento css, il body è un SELECTOR / SELETTORE, dove spariamo le info che diamo, ciòc he è interessato al cambaimento di stile. body si intende tutto il file. background color è la proprieta' E TURCHESE è IL VALORE 
 - modo 1 per il colore: nome*/ 
 body {
-    background-color: pink;
-    color: fuchsia;
     font-family: 'HalyardDis_ISIAU Bk';
     font-size: 28px;
 }
@@ -23,26 +21,22 @@ h3{
 
 /* metodo 3 colore, esadecimali*/
 h4{
-    background-color: white;
-    color: #ff0000;
+
     font-style: italic;
 }
 
 /*colore link*/
 
 a{
-    color: rgb(69, 9, 545, 0, 191);
-    /*decorazione linea sopra, con none tolgo tutto*/
-    text-decoration: overline;
-    
+    border-bottom: 1px solid black; /* shorthand, ovvero una contrazione di quelle che sarebbero diverse linee di codice */
 }
 
 /* alcuni elelemtni di html come link ha diversi stati, può essere a riposo, sopra con il mouse, cliccato e quando è già stato visitato */
 /* :hover è una PSEUDO CLASSE e inetnde quando ci siamo sopra con il mouse*/
 
 a:hover{
-color: black;
-text-decoration: underline;
+    color: black;
+    text-decoration: underline;
 }
 
 a:visited{
